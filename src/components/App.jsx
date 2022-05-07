@@ -22,7 +22,7 @@ class App extends Component {
     }
   }
 
-  componentDidUpdate(prevProps, prevState) {
+  componentDidUpdate(prevState) {
     const contacts = this.state.contacts;
     const prevStateContacts = prevState.contacts;
 
